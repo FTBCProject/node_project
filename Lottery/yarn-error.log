@@ -1,0 +1,44 @@
+Arguments: 
+  /home/user/.nvm/versions/node/v8.11.2/bin/node /usr/share/yarn/bin/yarn.js add node-scrypt
+
+PATH: 
+  /home/user/.nvm/versions/node/v8.11.2/bin:/home/user/anaconda3/bin:/home/user/Downloads/jdk-8u161-linux-x64/jdk1.8.0_161/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/user/go/bin:/usr/local/go/bin:/home/user/Blockchain/go/bin
+
+Yarn version: 
+  1.9.2
+
+Node version: 
+  8.11.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/user/Blockchain/projects/Lottery/node_modules/ethereumjs-tx/node_modules/ethereum-common'
+
+npm manifest: 
+  {
+    "name": "lottery",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "fix": "0.0.6",
+      "ganache-cli": "^6.1.5",
+      "mocha": "^5.2.0",
+      "solc": "^0.4.24",
+      "truffle-hdwallet-provider": "0.0.6",
+      "web3": "^1.0.0-beta.34"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
